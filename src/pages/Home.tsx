@@ -33,42 +33,42 @@ const Home: FC<MenuI> = ({ setExplore }) => {
             <img
               src="/images/p3.jpg"
               alt="p3"
-              className="rounded-md hover:scale-95 transition-all"
+              className="rounded-md hover:scale-95 transition duration-500 ease-in-out"
             />
           </div>
           <div className="rounded-lg p-2 break-inside">
             <img
               src="/images/p2.jpg"
               alt="p2"
-              className="rounded-md hover:scale-95 transition-all"
+              className="rounded-md hover:scale-95 transition duration-500 ease-in-out"
             />
           </div>
           <div className="rounded-lg p-2 break-inside">
             <img
               src="/images/p1.jpg"
               alt="p1"
-              className="rounded-md hover:scale-95 transition-all"
+              className="rounded-md hover:scale-95 transition duration-500 ease-in-out"
             />
           </div>
           <div className="rounded-lg p-2 break- inside">
             <img
               src="/images/p6.jpg"
               alt="p6"
-              className="rounded-md hover:scale-95 transition-all"
+              className="rounded-md hover:scale-95 transition duration-500 ease-in-out"
             />
           </div>
           <div className="rounded-lg p-2 break-inside">
             <img
               src="/images/p5.jpg"
               alt="p5"
-              className="rounded-md hover:scale-95 transition-all"
+              className="rounded-md hover:scale-95 transition duration-500 ease-in-out"
             />
           </div>
           <div className="rounded-lg p-2 break-inside">
             <img
               src="/images/p4.jpg"
               alt="p4"
-              className="rounded-md hover:scale-95 transition-all"
+              className="rounded-md hover:scale-95 transition duration-500 ease-in-out"
             />
           </div>
         </div>
