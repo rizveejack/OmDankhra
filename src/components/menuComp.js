@@ -1,12 +1,8 @@
-import { FC } from 'react'
 import { Link } from 'react-router-dom'
 import { MenuIcon } from '../lib/icons'
 
-interface MenuI {
-  setMtoggle: (x: boolean) => void
-}
 
-const MenuComp: FC<MenuI> = ({ setMtoggle }) => {
+const MenuComp = ({ setMtoggle }) => {
   return (
     <nav className="flex justify-between items-center py-12 px-10 sm:py-4 md:py-4">
       <div className="text-6xl cursor-pointer sm:pl-0 md:pl-0 pl-20">

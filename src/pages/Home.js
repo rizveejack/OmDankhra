@@ -1,11 +1,6 @@
-import { FC } from 'react'
 import DownIcon from '../lib/icons'
 
-interface MenuI {
-  setExplore: (x: boolean) => void
-}
-
-const Home: FC<MenuI> = ({ setExplore }) => {
+const Home = ({ setExplore }) => {
   return (
     <div className="flex justify-start space-x-20 sm:space-x-0 sm:flex-col md:flex-col">
       <div className="hidden justify-center items-center text-2xl py-4 sm:flex md:flex">

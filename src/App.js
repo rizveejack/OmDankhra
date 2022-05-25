@@ -1,4 +1,4 @@
-import { FC, useState } from 'react'
+import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import ExploreMenu from './components/ExploreMenu'
 import MenuComp from './components/menuComp'
@@ -9,7 +9,7 @@ import Home from './pages/Home'
 import SignIn from './pages/SignIn'
 import Story from './pages/Story'
 
-const App: FC = () => {
+const App = () => {
   const [mtoggle, setMtoggle] = useState(false)
   const [explore, setExplore] = useState(false)
   return (

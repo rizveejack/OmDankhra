@@ -1,11 +1,7 @@
-import { FC } from 'react'
 import { Link } from 'react-router-dom'
 
-interface MenuI {
-  setExplore: (x: boolean) => void
-}
 
-const ExploreMenu: FC<MenuI> = ({ setExplore }) => {
+const ExploreMenu = ({ setExplore }) => {
   return (
     <div className="fixed top-0 left-0 h-screen w-full bg-gradient-to-r from-blue-200 via-pink-100 to-blue-400 min-h-screen flex items-start justify-center text-center py-10">
       <nav className="flex flex-col justify-center items-center space-y-10 absolute">
